@@ -1,0 +1,130 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+  outline: none;
+  color: black;
+}
+
+.startpage {
+  background: rgb(34,193,195);
+  background: radial-gradient(rgba(34,193,195,1) 0%, rgba(225,229,180,1) 30%, rgba(255,137,1,1) 100%);
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+
+}
+
+.start-text {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  transform: translate(0, 180px);
+}
+
+.join-block-RoomID {
+  margin-left: 800px;
+  margin-right: 800px;
+  font-size: 24px;
+  width: 320px;
+  height: 50px;
+  text-align: center;
+  transform: translate(0, 310px)
+}
+
+.join-block-Name {
+  margin-left: 800px;
+  margin-right: 800px;
+  font-size: 24px;
+  width: 320px;
+  height: 50px;
+  text-align: center;
+  transform: translate(0, 330px)
+}
+
+.join-block-button {
+  background-color: #ff8901;
+  margin-left: 815px;
+  margin-right: 800px;
+  font-size: 24px;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  transform: translate(0, 350px)
+}
+
+.chat {
+  display: flex;
+  height: 900px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.chat-users {
+  border-right: 2px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  width: 150px;
+  background-color: #ff8901;
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  padding: 30px;
+}
+
+.messages {
+  flex: 1;
+  height: calc(100% - 155px);
+  overflow: auto;
+}
+
+.message {
+  margin-bottom: 40px;
+}
+
+.message p {
+  display: inline-flex;
+  border-radius: 8px;
+  background-color: #1976d2;
+  padding: 10px 12px 10px;
+  color: #fff;
+  margin-bottom: 1px;
+}
+
+.message span {
+  opacity: 0.5;
+  font-size: 13px;
+}
+
+.chat-users ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.chat-users ul li {
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 8px 14px;
+  box-shadow: 0 3px 5px rgba(255, 0, 0, 0.1);
+  font-weight: 500;
+}
+
+.chat-messages form {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.chat-messages form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
